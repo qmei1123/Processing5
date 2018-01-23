@@ -20,6 +20,7 @@ function draw() {
         var g = random(255);
         var b = random(255);
         stroke(r, g, b);
+        strokeWeight(r);
         line(i, 0, i, height);
 }
 }
